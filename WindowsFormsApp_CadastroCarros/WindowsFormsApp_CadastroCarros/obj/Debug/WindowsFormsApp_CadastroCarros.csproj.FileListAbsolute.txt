@@ -1,0 +1,10 @@
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\bin\Debug\WindowsFormsApp_CadastroCarros.exe.config
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\bin\Debug\WindowsFormsApp_CadastroCarros.exe
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\bin\Debug\WindowsFormsApp_CadastroCarros.pdb
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.csproj.AssemblyReference.cache
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.FormPrincipal.resources
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.Properties.Resources.resources
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.csproj.GenerateResource.cache
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.csproj.CoreCompileInputs.cache
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.exe
+C:\Users\barro\Workspace\Projetos em C# - ASP.NET (MVC) e Razor\WindowsFormsApp_CadastroCarros\WindowsFormsApp_CadastroCarros\obj\Debug\WindowsFormsApp_CadastroCarros.pdb
