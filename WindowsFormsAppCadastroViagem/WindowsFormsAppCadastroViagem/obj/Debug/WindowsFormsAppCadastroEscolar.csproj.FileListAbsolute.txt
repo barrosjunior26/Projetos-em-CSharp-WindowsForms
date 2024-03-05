@@ -1,0 +1,13 @@
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\bin\Debug\WindowsFormsAppCadastroViagem.exe.config
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\bin\Debug\WindowsFormsAppCadastroViagem.exe
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\bin\Debug\WindowsFormsAppCadastroViagem.pdb
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroEscolar.csproj.AssemblyReference.cache
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroViagem.Properties.Resources.resources
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroEscolar.csproj.GenerateResource.cache
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroEscolar.csproj.CoreCompileInputs.cache
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroViagem.exe
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroViagem.pdb
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroViagem.FormPrincipal.resources
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\bin\Debug\System.Data.SqlClient.dll
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\bin\Debug\System.Data.SqlClient.xml
+C:\Users\barro\Workspace\Projetos-em-CSharp-WindowsForms\WindowsFormsAppCadastroViagem\WindowsFormsAppCadastroViagem\obj\Debug\WindowsFormsAppCadastroEscolar.csproj.CopyComplete

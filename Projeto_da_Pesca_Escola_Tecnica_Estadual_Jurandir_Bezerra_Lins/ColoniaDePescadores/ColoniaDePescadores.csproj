@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C80179D-93A9-442D-8103-A527E89FE956}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ColoniaDePescadores</RootNamespace>
+    <AssemblyName>ColoniaDePescadores</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaDoPescador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AreaDoPescador.Designer.cs">
+      <DependentUpon>AreaDoPescador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroCliente.cs" />
+    <Compile Include="Colaboradores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Colaboradores.Designer.cs">
+      <DependentUpon>Colaboradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="Financiamento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Financiamento.Designer.cs">
+      <DependentUpon>Financiamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduto1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduto1.Designer.cs">
+      <DependentUpon>FormProduto1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduto2.Designer.cs">
+      <DependentUpon>FormProduto2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduto3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduto3.Designer.cs">
+      <DependentUpon>FormProduto3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduto4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduto4.Designer.cs">
+      <DependentUpon>FormProduto4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduto5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduto5.Designer.cs">
+      <DependentUpon>FormProduto5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImagemInicial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImagemInicial.Designer.cs">
+      <DependentUpon>ImagemInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parceiros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parceiros.Designer.cs">
+      <DependentUpon>Parceiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulador\FormFinanciamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simulador\FormFinanciamento.Designer.cs">
+      <DependentUpon>FormFinanciamento.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AreaDoPescador.resx">
+      <DependentUpon>AreaDoPescador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colaboradores.resx">
+      <DependentUpon>Colaboradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financiamento.resx">
+      <DependentUpon>Financiamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduto1.resx">
+      <DependentUpon>FormProduto1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduto2.resx">
+      <DependentUpon>FormProduto2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduto3.resx">
+      <DependentUpon>FormProduto3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduto4.resx">
+      <DependentUpon>FormProduto4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduto5.resx">
+      <DependentUpon>FormProduto5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagemInicial.resx">
+      <DependentUpon>ImagemInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parceiros.resx">
+      <DependentUpon>Parceiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Simulador\FormFinanciamento.resx">
+      <DependentUpon>FormFinanciamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-02-26 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo do meu projeto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo marlin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finanças.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorias..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair do sistema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colônia da Pesca com logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colônia da Pesca com logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-fauxels-3184398.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo-documento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salve-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\troca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botão cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rabeta Longa Turbo Tornado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor Honda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor de rabeta Bristol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor a Diesel 70CV-296CC com Partida Manual Branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor a Diesel Branco BD10.0H G2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor a Diesel Branco 10HP BD 10.0 G2 H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor a Diesel Branco BD7.0H G2 - Partida Eletrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor Diesel BD13.0H - Partida Eletrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motor Disel BD7.0H G2 - Partida Manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vara de pesca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Isca Artificial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chumbada de pesca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarrafa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rede Grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatsapp.png" />
+    <None Include="Resources\twitter.png" />
+    <None Include="Resources\userLogin.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\TOCANTINS.png" />
+    <None Include="Resources\ACRE.png" />
+    <None Include="Resources\ALAGOAS.png" />
+    <None Include="Resources\AMAPÁ.png" />
+    <None Include="Resources\AMAZONAS.png" />
+    <None Include="Resources\BAHIA.png" />
+    <None Include="Resources\CEARÁ.png" />
+    <None Include="Resources\DISTRITO FEDERAL.png" />
+    <None Include="Resources\ESPÍRITO SANTO.png" />
+    <None Include="Resources\GOIÁS.png" />
+    <None Include="Resources\financa1.png" />
+    <None Include="Resources\conecte-se.png" />
+    <None Include="Resources\conexao-na-nuvem.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\GOFERNO DE PERNAMBUCO.jpg" />
+    <None Include="Resources\GOVERNO MUNICIPAL.jpg" />
+    <Content Include="Resources\ImagensBancos\Banco-Votorantim.jpg" />
+    <Content Include="Resources\ImagensBancos\Banco-do-Brasil.png" />
+    <Content Include="Resources\ImagensBancos\banco-do-nordeste.png" />
+    <Content Include="Resources\ImagensBancos\Banco-Itau.png" />
+    <Content Include="Resources\ImagensBancos\Caixa.png" />
+    <Content Include="Resources\ImagensBancos\santander-logo.png" />
+    <Content Include="Resources\ImagensBancos\seguro-de-cartao-Bradesco.png" />
+    <None Include="Resources\taxaDeJuros1.png" />
+    <None Include="Resources\interesse.png" />
+    <None Include="Resources\interesse1.png" />
+    <None Include="Resources\pescador.png" />
+    <None Include="Resources\JANEIRO.png" />
+    <None Include="Resources\MARANHÃO.png" />
+    <None Include="Resources\MATO GROSSO DO SUL.png" />
+    <None Include="Resources\MATO GROSSO.png" />
+    <None Include="Resources\MINAS GERAIS.png" />
+    <None Include="Resources\PARÁ.png" />
+    <None Include="Resources\PARAÍBA.png" />
+    <None Include="Resources\PARANÁ.png" />
+    <None Include="Resources\PERNAMBUCO.png" />
+    <None Include="Resources\PIAUÍ.png" />
+    <None Include="Resources\RIO GRANDE DO NORTE.png" />
+    <None Include="Resources\RIO GRANDE DO SUL.png" />
+    <None Include="Resources\RONDÔNIA.png" />
+    <None Include="Resources\RORAIMA.png" />
+    <None Include="Resources\SANTA CATARINA.png" />
+    <None Include="Resources\SÃO PAULO.png" />
+    <None Include="Resources\SERGIPE.png" />
+    <None Include="Resources\pexels-antoni-shkraba-5816293.jpg" />
+    <None Include="Resources\liberado.png" />
+    <None Include="Resources\NEGATIVADO.jpg" />
+    <None Include="Resources\Mapa_Pernambuco.png" />
+    <None Include="Resources\Mapa_Animado.gif" />
+    <None Include="Resources\pexels-quang-nguyen-vinh-2131904cópiaeditada.jpg" />
+    <None Include="Resources\security.png" />
+    <None Include="Resources\logo do meu projeto1.png" />
+    <None Include="Resources\LOGO GOVERNO FEDERAL.jpg" />
+    <None Include="Resources\instagram.png" />
+    <Content Include="Resources\taxaDeJuros.png" />
+    <None Include="Resources\Botão-limpar-limpo.png" />
+    <None Include="Resources\Botãocancelar.png" />
+    <None Include="Resources\confirmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
