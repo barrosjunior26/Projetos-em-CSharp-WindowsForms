@@ -1,2 +1,2 @@
-# Projetos-em-CSharp-WindowsForms
- Aplicação simples de estudos em C# | Windowsforms compartilhando o mesmo banco de dados e tabelas da minha aplicação ASP.NET (MVC) e Razor.
+# Projetos acadêmicos
+ Aplicações simples apenas afim de estudos e aprendizem de tecnologias Asp.Net Core, Entity Framework, HTML, Bootstrap, CSS e linguagens de programação C#, JavaScript.
